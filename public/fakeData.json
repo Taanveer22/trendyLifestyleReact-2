@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop Backpack",
+    "price": 109.95,
+    "description": "Your perfect everyday pack for walks in the forest. Fits laptops up to 15 inches.",
+    "category": "men's clothing",
+    "image": "https://i.postimg.cc/GtL97880/pexels-kaip-996329.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Comfort Tee",
+    "price": 22.3,
+    "description": "Slim-fitting, breathable tee with a contrast raglan sleeve and three-button placket.",
+    "category": "men's clothing",
+    "image": "https://i.postimg.cc/HsKs5P21/pexels-david-bartus-43782-297933.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Outdoor Jacket",
+    "price": 55.99,
+    "description": "Versatile outerwear suitable for hiking, camping, cycling, and other outdoor activities.",
+    "category": "men's clothing",
+    "image": "https://i.postimg.cc/Jn11Mw1Z/t-shirt-with-pants-shoes.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Casual Shirt",
+    "price": 15.99,
+    "description": "Slim fit casual shirt. Please review detailed size information before purchase.",
+    "category": "men's clothing",
+    "image": "https://i.postimg.cc/br58xs19/top-view-clothing-1.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Dragon Bracelet",
+    "price": 695,
+    "description": "From our Legends Collection, inspired by the mythical water dragon that protects the ocean's pearl.",
+    "category": "jewelery",
+    "image": "https://i.postimg.cc/qM84hMzy/shirt.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Gold Ring",
+    "price": 168,
+    "description": "Solid Gold Micropave. Satisfaction Guaranteed. Return or exchange within 30 days.",
+    "category": "jewelery",
+    "image": "https://i.postimg.cc/sDRRrdwX/top-view-clothing.jpg"
+  }
+]
