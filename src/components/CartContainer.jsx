@@ -1,9 +1,9 @@
 import CartList from "./CartList";
 
-const CartContainer = ({ cart }) => {
+const CartContainer = ({ cart, handleDelete }) => {
   // console.log(cart);
   return (
-    <div className="w-full sm:w-2/5 ">
+    <div className="w-full lg:w-2/5 ">
       <h1 className="text-blue-400 font-bold text-center text-3xl my-4">
         Checkout Cart
       </h1>
@@ -14,7 +14,12 @@ const CartContainer = ({ cart }) => {
         <h3>Action</h3>
       </div>
       {cart.map((item, index) => (
-        <CartList item={item} key={index} index={index}></CartList>
+        <CartList
+          item={item}
+          key={index}
+          index={index}
+          handleDelete={handleDelete}
+        ></CartList>
       ))}
     </div>
   );

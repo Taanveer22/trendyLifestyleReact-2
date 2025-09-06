@@ -14,10 +14,18 @@ function App() {
       alert("already exist");
     }
   };
+
+  const handleDelete = (clickedItem) => {
+    // console.log(clickedItem);
+    const newCart = cart.filter(
+      (deleteItem) => deleteItem.id !== clickedItem.id
+    );
+    setCart(newCart);
+  };
   return (
-    <div className="w-11/12 mx-auto flex flex-col sm:flex-row gap-5 justify-between">
+    <div className="w-11/12 mx-auto flex flex-col lg:flex-row gap-5 justify-between">
       <AllProducts handleAddToCart={handleAddToCart}></AllProducts>
-      <CartContainer cart={cart}></CartContainer>
+      <CartContainer cart={cart} handleDelete={handleDelete}></CartContainer>
     </div>
   );
 }

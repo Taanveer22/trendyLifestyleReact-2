@@ -10,7 +10,7 @@ const AllProducts = ({ handleAddToCart }) => {
   }, []);
 
   return (
-    <div className="w-full sm:w-3/5">
+    <div className="w-full lg:w-3/5">
       <h1 className="text-blue-400 font-bold text-center text-3xl my-4">
         Available total products : {products.length}
       </h1>
