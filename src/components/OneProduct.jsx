@@ -1,6 +1,4 @@
-
-
-const OneProduct = ({ element }) => {
+const OneProduct = ({ element, handleAddToCart }) => {
   // console.log(element);
   const { image, title, price, description } = element;
   return (
@@ -9,7 +7,12 @@ const OneProduct = ({ element }) => {
       <h1 className="text-2xl font-semibold">{title}</h1>
       <p className="text-base opacity-70">{description}</p>
       <h3 className="text-lg font-medium">Price : {price} taka</h3>
-      <button className="bg-green-500 px-4 py-2">Add to cart</button>
+      <button
+        onClick={() => handleAddToCart(element)}
+        className="bg-green-500 px-4 py-2"
+      >
+        Add to cart
+      </button>
     </div>
   );
 };
